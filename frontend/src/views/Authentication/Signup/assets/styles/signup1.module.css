@@ -1,0 +1,37 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container1 {
+  display: flex;
+  color: #ffffff73;
+  font-size: 56px;
+  position: relative;
+  top: 18px;
+}
+.container2 {
+  display: flex;
+  width: 45vw;
+  height: 27vh;
+  position: relative;
+  bottom: 18px;
+}
+
+
+@media (max-width: 780px) {
+  .container1 {
+    font-size: 20px;
+    position: relative;
+    top: 1px;
+  }
+  .container2 {
+    width: 75vw;
+    height: 10vh;
+    position: relative;
+    bottom: 28px;
+  }
+}
